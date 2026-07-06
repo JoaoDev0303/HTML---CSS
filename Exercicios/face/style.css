@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Facebook;
+    src: url('fonts/FacebookSansRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: MMC;
+    src: url('fonts/MMC\ Regular.ttf') format('truetype');
+    font-weight: 17px
+    }
+
+
+body {
+    background-color: ;
+}
+
+img {
+    width: 500px;
+
+}
+h1 {
+    font-family: Facebook;
+    text-align: left;
+    margin-right: 55%;
+    font-size: 60px;
+    width: 300px;
+    margin-top: 220px;
+    margin-left: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#azul {
+    color: #1877F2;
+}
+
+p {
+    margin-right: ;
+    font-family: MMC;
+    text-align: right;
+
+}
+
+#negrito {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 878px;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+
+
+#loginesenha {
+    color: #666A72;
+    border: 1px solid #666A72;
+    margin-left: 980px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 35px;
+}
+
+#loginesenha:hover{
+    border: 1px solid black;
+}
+
+
+#entrar {
+    color: #FFFFFF;
+    margin-left: 62%;
+    background-color: #005FD5;
+    border: 1px solid;
+    border-radius: 18px;
+    padding: 10px;
+    margin-right: 35px;
+}
+
+
+#novaconta {
+    color: #0064E0;
+    border: 1px solid #0064E0;
+    margin-left: 68%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+#novaconta:hover {
+    background-color: #f5eeee;
+    margin-left: 68%;
+    border-radius: 15px;
+}
+
+#logo {
+    width: 65px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#esqueceuasenha {
+    margin-right: 180px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#esqueceuasenha:hover {
+    background-color: #f5eeee;
+    margin-left: 68%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.nomeazul {
+    color: #0064E0;
+}
