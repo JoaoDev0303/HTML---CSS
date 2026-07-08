@@ -60,12 +60,16 @@ section.normal {
 section.imagem {
     background-color: rgb(53, 52, 52);
     color: white;
+    box-shadow: inset 6px 6px 13px 6px rgb(17, 17, 17);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgb(53, 49, 49);
+    background-color: rgba(53, 49, 49, 0.692);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: inset 6px 6px 13px 6px rgb(17, 17, 17);
 }
 
 section > p {
@@ -74,10 +78,13 @@ section > p {
 
 section#img01 {
     background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 section#img02 {
     background-image: url('../imagens/background002.jpg');
+    background-size: cover;
 }
 
 footer {
