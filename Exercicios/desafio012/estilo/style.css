@@ -28,9 +28,11 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 10%vw;
+    margin-left: 180px;
 }
 header > p {
     padding-bottom: 50px;
+    margin-left: 190px;
 }
 a {
     color: white;
@@ -40,6 +42,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 section {
     font-family: var(--font3);
